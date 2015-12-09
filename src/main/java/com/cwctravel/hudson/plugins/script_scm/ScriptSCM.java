@@ -42,6 +42,7 @@ import org.apache.commons.lang.StringUtils;
 import org.codehaus.groovy.control.CompilerConfiguration;
 import org.kohsuke.stapler.StaplerRequest;
 
+//test commit
 public class ScriptSCM extends SCM {
 	private static class TempBuild<P extends AbstractProject<P, B>, B extends AbstractBuild<P, B>> extends AbstractBuild<P, B> {
 		protected TempBuild(P job, FilePath workspace) {
